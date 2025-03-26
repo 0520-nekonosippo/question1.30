@@ -44,7 +44,7 @@ public class Person {
 	// 自己紹介を表示するメソッド
 	public void print() {
 		System.out.println("名前は" + this.name + "です。");
-		System.out.println("年は" + this.age + "です。");
-		System.out.printf("BMIは%.2fです。\n", this.bmi());
+		System.out.println("年は" + this.age + "歳です。");
+		System.out.printf("BMIは%.1fです。\n", this.bmi());
 	}
 }
